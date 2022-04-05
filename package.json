@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=dev  nodemon src/app.ts",
-    "test": "NODE_ENV=test  mocha -r ts-node/register 'src/test/**/*.ts' --timeout 10000"
+    "dev": "nodemon src/app.ts",
+    "test": "mocha -r ts-node/register 'src/test/**/*.ts' --timeout 10000"
   },
   "author": "",
   "license": "ISC",
